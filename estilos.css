@@ -1,0 +1,272 @@
+/* estilos.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #D4DCCD; 
+    padding: 5px;
+    height: 380px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.caja {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end; 
+    font-family: oswald;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-bottom: 60px; /* Espacio entre el nav y el perfil */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%; 
+}
+
+.perfil .foto {
+    order: 2; 
+    width: 210px; 
+    height: 200px; 
+    border-radius: 50%;
+    margin-left: 10px;
+    margin: 100px;
+    position: relative;
+    margin-top: -32px;
+
+}
+
+.titulo-centralizado {
+    order: 1; 
+    margin: 0;
+    text-align: center;
+    padding-left: 10px;
+    font-family: sans-serif;
+    color: #104f55;
+}
+
+.texto {
+    display: block;
+    font-family: oswald;
+    text-align: left;
+    margin-bottom: 100px;
+    width: 60%;
+    padding-left: 10%;
+
+
+}
+.title2{
+    font-family: oswald;
+    color: #104f55;
+    font-size: 32px;
+    text-align: left;
+    padding-left: 10%;
+    align-items: flex-end
+
+}
+
+.face{
+    width: 50px;
+    height: 50px;
+
+}
+.Ln {
+    width: 40px;
+    height: 40px;
+
+}
+.insta {
+    width: 30px;
+    height: 30px;
+
+}
+.git{
+    width: 40px;
+    height: 40px;
+}
+
+.redes-sociales {
+    display: flex;
+    align-items: center;
+}
+.caja_sobremi{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end; 
+    font-family: oswald;
+    background-color: #DEF1E4; 
+    padding: 20px;
+}
+
+@media(max-width: 768px){
+    .caja {
+        flex-direction: column-reverse;
+    }
+    
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 4px 0.9px 0px rgba(0, 0, 0, 0.25);
+}
+
+.seccion_3{
+    background-color: #D4DCCD; 
+    padding: 5px;
+    height: 380px;
+    display: flex;
+
+}
+
+.foto_skills{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.skills, .hobbies {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    height: 500px;
+    background-color: #D4DCCD;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.title_skills, .title_hobbies {
+    align-self: center;
+    font-family: oswald;
+    color: #104f55;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.title_hobbies {
+    padding-top: 20px;
+}
+
+.lenguaje_programacion{
+    font-family: oswald;
+    margin-top: 10px;
+}
+.footer_hobbies{
+    font-family: oswald;
+    margin-top: 10px;
+}
+.seccion_4{
+    height: 500px;
+    background-color: #DEF1E4;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.formacion_academica{
+    align-self: center;
+    font-family: oswald;
+    color: #104f55;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px
+}
+.box_formacion{
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 4px 0.9px 0px rgba(0, 0, 0, 0.25);
+
+}
+.foto_academica{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+
+}
+
+.seccion_5{
+    height: 650px;
+    background-color: #D4DCCD;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.experiencia_profesional{
+    align-self: center;
+    font-family: oswald;
+    color: #104f55;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.box_experiencia{
+    width: 800px;
+    height: 260px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 0.9px 0px rgba(0, 0, 0, 0.25);
+}
+.experiencia_imagen{
+    width: 410px;
+    height: 410px;
+    object-fit: contain;
+    border-radius: 50px;
+    margin-right: 40px;
+}
+
+.experiencia_container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
